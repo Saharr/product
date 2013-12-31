@@ -12,8 +12,6 @@ public class DefaultController {
 	public String welcome(ModelMap model) {
 
 		model.addAttribute("message", "Localisez-vous votre maison d'avenir !");
-
-		// Spring uses InternalResourceViewResolver and return back index.jsp
 		return "index";
 
 	}
